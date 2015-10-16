@@ -1,0 +1,120 @@
+body {
+    background-color: black;
+}
+
+h3 {
+    font-family: "Verdana";
+    border: 2px solid;
+    border-radius: 5px;
+}
+
+p, li, h3 {
+    color: white;
+}
+
+hr {
+    clear: both;
+    width: 812px;
+    float: left;
+}
+
+#dropdown {
+    float: left;
+    width: 800px;
+    margin-right: 10px; 
+    margin-left: 12px;
+}
+
+.container {
+    clear: both;
+}
+
+#profile {
+    float: left;
+    border-radius: 5px;
+    margin-top: 15px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    margin-left:15px;
+}
+
+#id_left {
+    float: left;
+    width: 470px;
+    height: auto;
+    background-color: blue;
+    border-radius: 10px;
+}
+
+#quote_right {
+    float: left;
+    width: 850px;
+    height: auto;
+    border-radius: 10px;
+    background-color: #818181;
+    margin-left: 10px;
+}
+
+.epri_pic {
+    width: 200px;
+    height: auto;
+    float: right;
+    margin-right: 15px;
+}
+
+.bechtel_pic {
+    width: 100px;
+    height: auto;
+    float: right;
+    margin-right: 15px;
+}
+
+#penguin {
+    float: left;
+    margin-top: 10px;
+    margin-left: 15px;
+}
+
+#penguin img {
+    border-radius: 10px;
+    height: 230px;
+    width: 205px;
+}
+
+#date_mod {
+    clear: both;
+    text-align: center;
+    font-family: "Arial";
+    font-size: 10px;
+}
+
+/* Overlays */
+.ui-accordion .ui.accordion-header {
+                            display: block;
+                            cursor: pointer;
+                            position: relative;
+                            margin-top: 2px;
+                            padding: .5em .5em .5em .5em;
+                            zoom: 1;
+}
+.ui-accordion .ui-accordion-icons { padding-left: 2.2em; }
+.ui-accordion .ui-accordion-noicons { padding-left: .7em; }
+.ui-accordion .ui-accordion-icons .ui-accordion-icons { padding-left: 2.2em; }
+.ui-accordion .ui-accordion-header .ui-accordion-header-icon {
+                            position: absolute;
+                            left: .5em;
+                            top: 50%; 
+                            margin-top: -7px;
+}
+.ui-accordion .ui-accordion-content { 
+                            padding: 1em 1.2em;
+                            border-top: 0;
+                            overflow: auto;
+                            zoom: 1;
+}
+
+.ui-autocomplete {
+    position: absolute;
+    top: 0;
+    cursor: default;
+}

@@ -1,0 +1,195 @@
+body {
+    background: black url("http://files.hostgator.co.in/hostgator243007/image/fadingbluebackground.jpg") no-repeat;
+    background-size: 100% auto;
+}
+
+a:link {
+    color: #D119A3; /* Light purple */
+}
+
+a:visited {
+    color: #00FF00; /* Neon green */
+}
+
+h3 {
+    font-family: "Verdana";
+    border: 2px solid;
+    border-radius: 5px;
+}
+
+#banner {
+    display: block;
+    text-align: center;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+#banner span {
+    position: relative; 
+    display: inline-block;
+}
+
+#banner span h1 {
+    font-family: Lucida Sana Typewriter,Lucida Console,monaco,Bitstream Vera Sans Mono,monospace;
+    color: #1E90FF;
+}
+
+h2 {
+    font-family: Lucida Sana Typewriter,Lucida Console,monaco,Bitstream Vera Sans Mono,monospace;
+    color: white;
+}
+
+p, li, h3 {
+    color: white;
+}
+
+hr {
+    clear: both;
+    width: 99%;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+#dropdown {
+    float: left;
+    width: 75%;
+    margin-right: 10px; 
+    margin-left: 12px;
+}
+
+#dropdown h3 {
+    color: #B2B2FF;
+}
+
+.container {
+    clear: both;
+}
+
+#profile {
+    float: left;
+    border-radius: 5px;
+    margin-top: 15px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    margin-left:15px;
+}
+
+#id_left {
+    /* font-family: "Verdana"; */
+    font-family: "Arial";
+    font-size: 15px;
+    float: left;
+    width: 465px;
+    height: 188px;
+    background-color: #808080; 
+    border: 2px solid;
+    /* border-color: #00004C; */
+    border-color: #1E90FF;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+#quote_right {
+    box-shadow: 10px 10px 5px #1E90FF;
+    font-family: "Arial";
+    font-size: 15px;
+    float: left;
+    width: 850px;
+    height: auto;
+    border-radius: 10px;
+    background-color: #808080;
+    margin-top: 5px;
+    margin-left: 10px;
+}
+
+#github_pic {
+    width: 45px;
+    height: auto;
+    float: left;
+}
+
+#linkedin_pic {
+    width: 75px;
+    height: auto;
+    float: left;
+    margin-left: 10px;
+}
+
+.wcu_pic {
+    width: 145px;
+    height: auto;
+    float: right;
+    margin-right: 15px;
+}
+
+.epri_pic {
+    width: 200px;
+    height: auto;
+    float: right;
+    margin-right: 15px;
+}
+
+.bechtel_pic {
+    width: 100px;
+    height: auto;
+    float: right;
+    margin-right: 15px;
+}
+
+.implus_pic {
+    width: 100px;
+    height: 65px;
+    float: right;
+    margin-right: 15px;
+}
+   
+
+#penguin {
+    float: left;
+    margin-top: 10px;
+    margin-left: 15px;
+}
+
+#penguin img {
+    border-radius: 10px;
+    height: 230px;
+    width: 205px;
+}
+
+#date_mod {
+    clear: both;
+    text-align: center;
+    font-family: "Arial";
+    font-size: 10px;
+}
+
+/* Overlays */
+.ui-accordion .ui.accordion-header {
+                            display: block;
+                            cursor: pointer;
+                            position: relative;
+                            margin-top: 2px;
+                            padding: .5em .5em .5em .5em;
+                            zoom: 1;
+}
+.ui-accordion .ui-accordion-icons { padding-left: 2.2em; }
+.ui-accordion .ui-accordion-noicons { padding-left: .7em; }
+.ui-accordion .ui-accordion-icons .ui-accordion-icons { padding-left: 2.2em; }
+.ui-accordion .ui-accordion-header .ui-accordion-header-icon {
+                            position: absolute;
+                            left: .5em;
+                            top: 50%; 
+                            margin-top: -7px;
+}
+.ui-accordion .ui-accordion-content { 
+                            padding: 1em 1.2em;
+                            border-top: 0;
+                            overflow: auto;
+                            zoom: 1;
+}
+
+.ui-autocomplete {
+    position: absolute;
+    top: 0;
+    cursor: default;
+}

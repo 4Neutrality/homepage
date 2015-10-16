@@ -1,0 +1,18 @@
+This folder is where you should put your webpage.  Files places here
+can be accessed via the web at the address
+
+http://agora.cs.wcu.edu/~yourusername/
+
+Here are some things to keep in mind when building your webpage. 
+
+- You can use HTML and javascript, but PHP and Perl are not available.
+- Web files should be stored in ~/public_html
+- If you aren't able to access your files via the web remember to check
+  permissions.
+  - Your home directory should be executable by other (chmod o+x ~)
+  - All files in public_html need to be readable by other and 
+    directories need to be executable by other.  By default other has no 
+    permissions on newly created files and directories. You can either 
+    add the appropriate permissions for other after you create your webpage 
+    files, or you can change your umask to something more permissive 
+    like 0002 before creating them. 
